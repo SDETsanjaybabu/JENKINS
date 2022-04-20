@@ -14,7 +14,7 @@ import com.crm.autodesk.genericUtility.IPathConstant;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 @Listeners(com.crm.autodesk.genericUtility.ListenerImplementation.class)
-public class ForExtentReport {
+public class ForExtentReportTest {
 	
 	@Test
 	public void method1() {
