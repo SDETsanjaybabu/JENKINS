@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-20T20:31:05 IST" name="Default suite" finished-at="2022-04-20T20:31:10 IST" duration-ms="5287">
+  <suite started-at="2022-04-22T17:16:17 IST" name="Default suite" finished-at="2022-04-22T17:16:23 IST" duration-ms="5888">
     <groups>
     </groups>
-    <test started-at="2022-04-20T20:31:05 IST" name="Default test" finished-at="2022-04-20T20:31:10 IST" duration-ms="5287">
-      <class name="Day_1_practice.ForExtentReport">
-        <test-method signature="method2()[pri:0, instance:Day_1_practice.ForExtentReport@5fbdfdcf]" started-at="2022-04-20T20:31:05 IST" name="method2" finished-at="2022-04-20T20:31:10 IST" duration-ms="4624" status="FAIL">
+    <test started-at="2022-04-22T17:16:17 IST" name="Default test" finished-at="2022-04-22T17:16:23 IST" duration-ms="5888">
+      <class name="Day_1_practice.ForExtentReportTest">
+        <test-method signature="method2()[pri:0, instance:Day_1_practice.ForExtentReportTest@5fbdfdcf]" started-at="2022-04-22T17:16:17 IST" name="method2" finished-at="2022-04-22T17:16:23 IST" duration-ms="5292" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -16,7 +16,7 @@
               <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.fail(Assert.java:106)
-at Day_1_practice.ForExtentReport.method2(ForExtentReport.java:31)
+at Day_1_practice.ForExtentReportTest.method2(ForExtentReportTest.java:31)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -51,17 +51,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method2 -->
-        <test-method signature="method1()[pri:0, instance:Day_1_practice.ForExtentReport@5fbdfdcf]" started-at="2022-04-20T20:31:10 IST" name="method1" finished-at="2022-04-20T20:31:10 IST" duration-ms="2" status="PASS">
+        <test-method signature="method1()[pri:0, instance:Day_1_practice.ForExtentReportTest@5fbdfdcf]" started-at="2022-04-22T17:16:23 IST" name="method1" finished-at="2022-04-22T17:16:23 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method1 -->
-        <test-method signature="method3()[pri:0, instance:Day_1_practice.ForExtentReport@5fbdfdcf]" started-at="2022-04-20T20:31:10 IST" name="method3" finished-at="2022-04-20T20:31:10 IST" depends-on-methods="Day_1_practice.ForExtentReport.method2" duration-ms="0" status="SKIP">
+        <test-method signature="method3()[pri:0, instance:Day_1_practice.ForExtentReportTest@5fbdfdcf]" started-at="2022-04-22T17:16:23 IST" name="method3" finished-at="2022-04-22T17:16:23 IST" depends-on-methods="Day_1_practice.ForExtentReportTest.method2" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method ForExtentReport.method3()[pri:0, instance:Day_1_practice.ForExtentReport@5fbdfdcf] depends on not successfully finished methods]]>
+              <![CDATA[Method ForExtentReportTest.method3()[pri:0, instance:Day_1_practice.ForExtentReportTest@5fbdfdcf] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ForExtentReport.method3()[pri:0, instance:Day_1_practice.ForExtentReport@5fbdfdcf] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method ForExtentReportTest.method3()[pri:0, instance:Day_1_practice.ForExtentReportTest@5fbdfdcf] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -87,7 +87,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method3 -->
-      </class> <!-- Day_1_practice.ForExtentReport -->
+      </class> <!-- Day_1_practice.ForExtentReportTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

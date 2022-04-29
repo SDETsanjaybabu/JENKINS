@@ -18,12 +18,12 @@ public class ListenerImplementation implements ITestListener{
 	ExtentSparkReporter spark=new ExtentSparkReporter("./extentReport/report.html");
 	spark.config().setTheme(Theme.DARK);
 	spark.config().setDocumentTitle("BABU DOCUMENT");
-	spark.config().setReportName("Mohan report");
+	spark.config().setReportName("Sanjay report");
 	
 	report=new ExtentReports();
 	report.attachReporter(spark);
-	report.setSystemInfo("created By", "Brand Babu");
-	report.setSystemInfo("Reviewed By", "Mohan");
+	report.setSystemInfo("created By", "Sanjay");
+	report.setSystemInfo("Reviewed By", "babu");
 	report.setSystemInfo("Envirnoment", "Windows 10");	
 	
 	}
